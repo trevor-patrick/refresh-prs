@@ -7,7 +7,7 @@ A CLI tool that fetches your open GitHub pull requests, groups them by Linear ti
 - Fetches each PR's status and displays it as an emoji
 - Sorts groups by most recently created PR, and sorts PRs within a group by service name
 - Writes the result to `pull requests.md`, including a `misc` section for PRs with no detectable ticket
-- Supports **manual overrides** — if a PR can't be automatically matched to a ticket, you can assign it by adding a line like `- some-service/pull/123 -> CAR-456` to the `overrides` section of the Markdown file. On the next run, the tool reads these overrides and groups those PRs accordingly. The placeholder line `- repo/pull/123 -> CAR-123` is ignored and is just an example
+- Supports **manual overrides** — if a PR can't be automatically matched to a ticket, you can assign it by adding a line like `- some-service/pull/123 -> CAR-456` to the `overrides` section of the Markdown file. On the next run, the tool reads these overrides and groups those PRs accordingly. The placeholder line `- repo/pull/123 -> CAR-123` thats there when there are no overrides is ignored and is just an example
 - The Markdown file also includes a `raw links` section with bare URLs for easy copy/pasting into a Slack
 ## Output format
 Each ticket group looks like this:
