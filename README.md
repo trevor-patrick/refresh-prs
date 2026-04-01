@@ -39,6 +39,8 @@ export GITHUB_TOKEN="your_token_here"
 export PR_OUTPUT_FILE="your_path_here"
 ```
 
+You will have to tweak the `ticketRegex` variable in the code based on whatever Linear board you work from and what the tickets are prefixed with (for example "CAR-")
+
 ## Usage
 
 ```bash
