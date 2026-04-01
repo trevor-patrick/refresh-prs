@@ -41,12 +41,5 @@ export PR_OUTPUT_FILE="your_path_here"
 ## Usage
 
 ```bash
-go run .
-```
-
-Or build and run:
-
-```bash
-go build -o pr-tracker .
-./pr-tracker
+go run refresh_prs.go
 ```
