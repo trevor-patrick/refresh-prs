@@ -35,10 +35,9 @@ CAR-123
 
 ```bash
 export GITHUB_TOKEN="your_token_here"
+export PR_OUTPUT_FILE="your_path_here"
 ```
-### Output path
 
-The output file is hardcoded in the code. Change it if you want
 ## Usage
 
 ```bash
