@@ -2,6 +2,7 @@
 A CLI tool that fetches your open GitHub pull requests, groups them by Linear ticket, and writes a formatted Markdown summary.
 ## What it does
 - Searches GitHub for all open PRs where you are the **author** or **assignee**, including any with a `stale` label so nothing falls through the cracks. To stop tracking a stale PR, remove its `stale` label on GitHub
+- It can track bumper-generated PRs as well
 - Groups PRs by Linear ticket (e.g. `CAR-1234`), detected from the PR title, body, or branch name
 - Fetches each PR's status and displays it as an emoji
 - Sorts groups by most recently created PR, and sorts PRs within a group by service name
